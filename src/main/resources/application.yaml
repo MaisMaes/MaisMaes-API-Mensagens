@@ -1,3 +1,6 @@
+server:
+  port: 8081
+
 spring:
   application:
     name: mensagens
@@ -18,6 +21,4 @@ spring:
 app:
   maismaes-api:
     host: ${ACTIVATION_HOST:http://localhost:8080}
-
-
 
