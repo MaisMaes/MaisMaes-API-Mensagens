@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: mensagens
+
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:email@gmail.com}
+    password: ${MAIL_PASSWORD:senha-de-app}
+    from: ${MAIL_FROM:nao-responda@maismaes.com.br}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+app:
+  maismaes-api:
+    host: ${ACTIVATION_HOST:http://localhost:8080}
+
+
+

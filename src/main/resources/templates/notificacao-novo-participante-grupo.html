@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+Mães - Novo participante no grupo</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f5f0fb;font-family:'Poppins',Arial,Helvetica,sans-serif;color:#35264c;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#f5f0fb;margin:0;padding:24px 12px;width:100%;">
+    <tr>
+        <td align="center">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:600px;background:linear-gradient(180deg, #cf69d9 0%, #b683dd 42%, #7ecce5 76%, #5ad5d2 100%);border-radius:28px;overflow:hidden;">
+                <tr>
+                    <td align="center" style="padding:40px 32px 24px 32px;">
+                        <div style="font-size:42px;line-height:1;font-weight:700;color:#ffffff;letter-spacing:-1px;">+Mães</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:0 24px 24px 24px;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#ffffff;border-radius:24px;box-shadow:0 14px 40px rgba(86, 38, 117, 0.18);">
+                            <tr>
+                                <td align="center" style="padding:36px 32px 10px 32px;">
+                                    <div style="display:inline-block;background-color:#e7f8f7;border-radius:50%;width:64px;height:64px;line-height:64px;text-align:center;font-size:32px;">👋</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:12px 32px 6px 32px;text-align:center;">
+                                    <div style="font-size:26px;line-height:1.2;font-weight:700;color:#7c4bc1;margin-bottom:10px;">Novo participante no grupo</div>
+                                    <div style="font-size:15px;line-height:1.7;color:#5d5272;">
+                                        Um novo membro acabou de entrar em um dos grupos que voc&ecirc; administra.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:20px 32px 8px 32px;">
+                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#fdf6ff;border:1px solid #e0c8f8;border-radius:20px;">
+                                        <tr>
+                                            <td style="padding:20px 24px 10px 24px;text-align:center;">
+                                                <div style="font-size:13px;font-weight:600;letter-spacing:1.4px;text-transform:uppercase;color:#a56cd8;">Grupo</div>
+                                                <div style="font-size:22px;font-weight:700;color:#4c3b67;margin-top:6px;" th:text="${nomeGrupo}">Nome do Grupo</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:0 24px 20px 24px;text-align:center;">
+                                                <div style="font-size:14px;color:#7a718c;">Participante</div>
+                                                <div style="display:inline-block;background:linear-gradient(135deg, #cf69d9, #7ecce5);border-radius:999px;padding:8px 20px;margin-top:8px;">
+                                                    <span style="font-size:20px;font-weight:700;color:#ffffff;" th:text="${nomeParticipante}">Nome do participante</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:16px 32px 8px 32px;text-align:center;font-size:15px;line-height:1.7;color:#5d5272;">
+                                    Acesse seu painel para acompanhar as atividades do grupo e manter tudo organizado.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:28px 32px 36px 32px;text-align:center;font-size:14px;line-height:1.7;color:#7a718c;">
+                                    Com responsabilidade e cuidado,<br>
+                                    <strong style="color:#7c4bc1;">Equipe +Mães</strong>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding:0 28px 28px 28px;text-align:center;font-size:12px;line-height:1.6;color:#ffffff;opacity:0.95;">
+                        Este e-mail foi enviado automaticamente. N&atilde;o &eacute; necess&aacute;rio respond&ecirc;-lo.
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
